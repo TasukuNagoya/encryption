@@ -2,9 +2,9 @@ import base64
 import streamlit as st
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 
-st.set_page_config(page_title="AES 暗号化/復号ツール originated by T.Nagoya", layout="centered")
+st.set_page_config(page_title="AES 暗号化/復号ツール", layout="centered")
 
-st.title("🔐 AES 暗号化 & 復号アプリケーション")
+st.title("🔐 AES 暗号化 & 復号アプリケーション originated by T.Nagoya")
 st.markdown("任意の鍵長、鍵テキスト、平文を入力して、AES-GCMによる暗号化・復号を行います。")
 
 # 操作モードの選択
